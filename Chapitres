@@ -1,0 +1,15 @@
+# Crée un fichier pour chaque chapitre
+for i in {1..9}; do
+    touch "chapitres/chapitre_$i.md"
+done
+
+# Crée un fichier pour suivre les rôles
+echo "# Rôles de l'équipe
+- Héros: [Nom]
+- Villain: [Nom]
+- Helper: [Nom]" > ROLES.md
+
+# Commit cette structure
+git add .
+git commit -m "Structure: Ajout des 9 fichiers de chapitres"
+git push origin main
