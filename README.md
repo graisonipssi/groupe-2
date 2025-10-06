@@ -1,4 +1,4 @@
-# 🧱 Organisation Git
+# Organisation Git
 
 Pour chaque chapitre :
 1. Créer une branche de chapitre depuis main .
